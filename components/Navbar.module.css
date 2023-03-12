@@ -6,7 +6,8 @@
     height: 40px;
     display: flex;
     justify-content: space-between;
-    /* border-bottom: 1px solid gray; */
+    background-color: rgb(235, 233, 232);
+    border-bottom: 1px solid gray;
   }
   
   .logo_image {
@@ -21,8 +22,26 @@
     font-size: 16px;
     line-height: 28px;
     gap: 30px;
+    background-color: rgb(235, 233, 232);
+
   }
+  .menu_button{
+  display: flex;
+  border-radius: 5px;
+   padding: 2px 20px;
+   background-color: #999999;
+   color: white;
+   border: none;
+   margin-top: 2px;
+   font-size: 14px;
+   font-weight: 500;
+   cursor: pointer;
+   z-index:10000 !important;
+   margin-left: -2em;
+ }
   
+
+
   .mobile_btn {
     display: none;
   }
@@ -48,7 +67,7 @@
       bottom: 0;
       width: 100%;
       height: 100vh;
-      background-color: #f8f8f8;
+      background-color: #c4c4c4;
       z-index: 10;
       transition: left 1s;
     }

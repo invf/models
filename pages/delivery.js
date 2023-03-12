@@ -14,9 +14,9 @@ const Delivery = ({ products, bannerData }) => (
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h2 className={styles.subtitle}>
           Delivery Options
-        </h1>
+        </h2>
 
         <p className={styles.description}>
           We offer a variety of delivery options to suit your needs. Our standard delivery option is free for all orders over $50 and takes 3-5 business days to arrive. We also offer express delivery for an additional fee, which takes 1-2 business days.
@@ -40,9 +40,7 @@ const Delivery = ({ products, bannerData }) => (
 
       </main>
 
-      <footer className={styles.footer}>
-        <p>Hand Stitches &copy; 2023</p>
-      </footer>
+
     </div>
 );
 

@@ -24,24 +24,25 @@ const Navbar = () => {
 			<Link href="/">HANDSTITCHES</Link>
 			</p>
           </div>
+          
           <ul
             className={
               nav ? [style.menu, style.active].join(' ') : [style.menu]
             }
           >
-            <li>
+            <li className={style.menu_button}>
               <a href='./'>Home</a>
             </li>
-            <li>
+            <li className={style.menu_button}>
               <a href='./about'>About Us</a>
             </li>
-            <li>
+            <li className={style.menu_button}>
               <a href='./payment'>Payments</a>
             </li>
-            <li>
+            <li className={style.menu_button}>
               <a href='./delivery'>Delivery</a>
             </li>
-            <li>
+            <li className={style.menu_button}>
               <a href='./PrivacyPolicy'>Terms</a>
             </li>
           </ul>

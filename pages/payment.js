@@ -4,6 +4,8 @@ import { client } from '../lib/client';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Product, FooterBanner, HeroBanner } from '../components';
+import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 'react-icons/ai';
+import { TiDeleteOutline } from 'react-icons/ti';
 
 const Payment = ({ products, bannerData }) => (
   <div className={styles.container}>
@@ -14,9 +16,9 @@ const Payment = ({ products, bannerData }) => (
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h2 className={styles.subtitle}>
           Payment Options
-        </h1>
+        </h2>
 
         <p className={styles.description}>
           We accept a variety of payment options to suit your needs. You can pay with any major credit or debit card, including Visa, Mastercard, American Express, and Discover. We also accept payments through PayPal and Apple Pay.
@@ -40,9 +42,7 @@ const Payment = ({ products, bannerData }) => (
 
       </main>
 
-      <footer className={styles.footer}>
-        <p>Hand Stitches &copy; 2023</p>
-      </footer>
+
     </div>
 );
 

@@ -4,6 +4,13 @@ import { client } from '../lib/client';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Product, FooterBanner, HeroBanner } from '../components';
+import Link from 'next/link';
+import Image from 'next/image';
+
+import imageAsset from '/public/assets/about.webp'
+import GifAsset from '/public/assets/stitch.gif'
+import imageTable from '/public/assets/table_short.webp'
+
 
 const About = ({ products, bannerData }) => (
   <div className={styles.container}>
@@ -14,35 +21,45 @@ const About = ({ products, bannerData }) => (
        </Head>
 
        <main className={styles.main}>
-         <h1 className={styles.title}>
-           About Hand Stitches
-         </h1>
+       
+       <div className={styles.image}>
+       <Image className={styles.image} src={imageAsset} width={300} height={300} style={styles.center} />
 
-         <p className={styles.description}>
-           Hand Stitches is a company that specializes in handmade products, including quilts, embroidery, and other textile crafts. We are dedicated to preserving traditional crafting techniques and creating high-quality, one-of-a-kind pieces that are both beautiful and functional.
-         </p>
-
+        </div>
+        
          <h2 className={styles.subtitle}>
-           Our Story
+           About Us
          </h2>
 
-         <p className={styles.description}>
-           Hand Stitches was founded in 2010 by Jane Doe, a lifelong crafter and textile enthusiast. Jane grew up learning traditional crafting techniques from her grandmother, and developed a deep passion for handmade products and the stories behind them. After many years of making and selling her crafts at local markets and fairs, Jane decided to start Hand Stitches to share her love of handmade products with a wider audience.
-         </p>
+         <p className={styles.description}>We are Viktor and Larysa, a happily married couple from Ukraine with 37 years of marriage experience.</p>
+<p className={styles.description}>We have a large and joyful family, and we share a passion for embroidery.</p>
+<p className={styles.description}>Embroidery started as Larysa's hobby, but with the support and assistance of my husband, Viktor, we have turned it into a successful business.</p>
+<p className={styles.description}>We work together on the design and promotion of our creations.</p>
+<div className={styles.image}>
+       <Image className={styles.image} src={GifAsset} width={300} height={300} style={styles.center} />
 
-         <h2 className={styles.subtitle}>
-           Our Mission
-         </h2>
+        </div>
 
-         <p className={styles.description}>
-           At Hand Stitches, our mission is to provide our customers with high-quality, handmade products that are both beautiful and functional. We are committed to preserving traditional crafting techniques and supporting local artisans and crafters. We believe that handmade products have a special magic that mass-produced items simply can't match, and we're passionate about sharing that magic with the world.
-         </p>
+<p className={styles.description}>Our ultimate goal is to make the world a better place by bringing joy and happiness through our embroidery.</p>
+<p className={styles.description}>Our dedication and hard work are evident in the high-quality pieces we produce.</p>
+<p className={styles.description}>Our business has flourished, and we continue to create new and unique designs to satisfy our customers.</p>
+<div className={styles.image}>
+       <Image className={styles.image} src={imageTable} width={300} height={300} style={styles.center} />
+
+        </div>
+
+<p className={styles.description}>We are a true inspiration to those who want to turn their passions into successful businesses.</p>
+<p className={styles.description}>We have shown that with perseverance and determination, anything is possible.</p>
+<p className={styles.description}>Our love for each other and our craft is reflected in our creations, and we strive to spread that love and joy to others.</p>
+
+<p className={styles.description}>If you're looking for beautiful and unique embroidery pieces, look no further than our business.</p>
+<p className={styles.description}>You'll not only receive high-quality pieces, but you'll also be supporting a loving and hardworking family who are dedicated to making the world a happier place.</p>
+
+
 
        </main>
 
-       <footer className={styles.footer}>
-         <p>Hand Stitches &copy; 2023</p>
-       </footer>
+
      </div>
 );
 
