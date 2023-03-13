@@ -317,13 +317,13 @@ text-align: end;
   font-weight: 500;
   cursor: pointer;
   gap: 2px;
-  margin-left: 10px;
+  margin-left: 70px;
   border: none;
   background-color: transparent;
 }
 
 .cart-heading .heading{
-  margin-left: 10px;
+  margin-left: 70px;
 }
 .cart-num-items{
   margin-left: 10px;
@@ -336,6 +336,7 @@ text-align: end;
 .empty-cart h3{
   font-weight: 600;
   font-size: 20px;
+  margin-left: 40px;
 }
 .cancel{
   cursor: pointer;
@@ -348,7 +349,7 @@ padding: 20px 10px;
 }
 .product{
   display: flex;
- gap: 30px;
+ gap: 10px;
   padding: 20px;
 }
 .product .cart-product-image{
@@ -359,7 +360,7 @@ padding: 20px 10px;
 }
 .item-desc .flex{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 350px;
    color: #324d67;
 
@@ -375,7 +376,7 @@ padding: 20px 10px;
 }
 .total{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .total h3{
   font-size: 22px;
@@ -402,14 +403,14 @@ padding: 30px 65px;
   margin: auto;
 }
 .btn{
-  width: 100%;
+  width: 80%;
   max-width: 400px;
   padding: 10px 12px;
   border-radius: 15px;
   border: none;
   font-size: 20px;
   margin-top: 10px;
-  margin-top: 40px;
+  margin-left: 40px;
   text-transform: uppercase;
   background-color: #f02d34;
   color: #fff;
@@ -494,7 +495,7 @@ padding: 30px 65px;
 }
 .product-detail-desc .buttons{
   display: flex;
-  gap: 30px;
+  gap: 0px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
@@ -506,7 +507,7 @@ padding: 30px 65px;
   color: #f02d34;
   cursor: pointer;
   width: 200px;
-   transform: scale(1, 1);
+   transform: scale(0.8, 0.8);
   transition: transform 0.5s ease;
 }
 .buttons .add-to-cart:hover{
@@ -523,7 +524,7 @@ padding: 30px 65px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-   transform: scale(1, 1);
+   transform: scale(0.8, 0.8);
   transition: transform 0.5s ease;
 }
 .buttons .buy-now:hover{
@@ -648,12 +649,12 @@ margin-top: 160px;
     font-weight: 900;
     font-size: 50px;
     margin-left: 80px;
-    color: #ef0f16;
+    color: #fefafa;
   }
   .banner-desc .left p{
     margin:0px;
     margin-left: 60px;
-    color: #ef0f16;
+    color: #fefafa;
   }
   .banner-desc .right h3{
     font-size: 45px;
@@ -688,8 +689,9 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
+
   }
   .cart-container{
     width: 415px;
@@ -703,6 +705,7 @@ margin-top: 160px;
   }
   .product{
     padding: 20px 5px;
+    margin-left: 60px;
 
   }
   .product .cart-product-image{
