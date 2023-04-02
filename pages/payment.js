@@ -20,25 +20,25 @@ const Payment = ({ products, bannerData }) => (
           Payment Options
         </h2>
 
-        <p className={styles.description}>
-          We accept a variety of payment options to suit your needs. You can pay with any major credit or debit card, including Visa, Mastercard, American Express, and Discover. We also accept payments through PayPal and Apple Pay.
-        </p>
+        <p className={styles.description}>Dear customers,</p>
 
-        <h2 className={styles.subtitle}>
-          Payment Policy
-        </h2>
+<p className={styles.description}>We regret to inform you that due to the ongoing war in Ukraine, we are currently experiencing issues with our payment system.</p>
+<p className={styles.description}>Unfortunately, this means that we are unable to process payments through our usual channels, including credit cards and online payment systems.</p>
 
-        <p className={styles.description}>
-          All payments are processed securely through our payment processor. We do not store any credit card or payment information on our servers. Once your payment has been processed, you will receive a confirmation email with your order details. Please note that your order will not be shipped until payment has been received in full.
-        </p>
+<p className={styles.description}>We understand that this may cause inconvenience, and we apologize for any delays or difficulties this may cause.</p>
+<p className={styles.description}>Please be assured that we are doing everything we can to resolve the issue as quickly as possible.</p>
 
-        <h2 className={styles.subtitle}>
-          Refunds and Returns
-        </h2>
+<p className={styles.description}>In the meantime, we would like to offer alternative payment options, including bank transfers or other offline payment methods.</p> 
+<p className={styles.description}>If you would like to use one of these alternative methods, please contact us directly at our Email: handstitches.ua@gmail.com or Mobile: +380-067-506-50-75 and we will provide you with the necessary information.</p>
 
-        <p className={styles.description}>
-          We offer refunds and returns on all products within 30 days of purchase. If you are not satisfied with your purchase for any reason, please contact us to initiate the return process. Refunds will be issued to the original payment method used to make the purchase.
-        </p>
+<p className={styles.description}>We know that many of our customers have been affected by the situation in Ukraine, and we would like to take this opportunity to extend our sympathies to everyone who has been affected.</p>
+<p className={styles.description}>We hope for a speedy resolution to the conflict, and for peace and stability to be restored to the region.</p>
+
+<p className={styles.description}>Thank you for your understanding and support during this difficult time.</p>
+
+<p className={styles.description}>Sincerely,</p>
+<p className={styles.description}>HANDSITCES STORE</p>
+
 
       </main>
 

@@ -43,7 +43,7 @@ const Navbar = () => {
               <a href='./delivery'>Delivery</a>
             </li>
             <li className={style.menu_button}>
-              <a href='./PrivacyPolicy'>Terms</a>
+              <a href='./PrivacyPolicy'>Refund Policy</a>
             </li>
           </ul>
 		   <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
