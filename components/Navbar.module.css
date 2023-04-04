@@ -29,8 +29,8 @@
   display: flex;
   border-radius: 5px;
    padding: 2px 20px;
-   background-color: #999999;
-   color: white;
+   background-color: #c4c4c4;
+   color: black;
    border: none;
    margin-top: 2px;
    font-size: 14px;
@@ -78,6 +78,7 @@
   
     .menu a {
       font-size: 28px;
+      text-decoration: underline;
     }
   }
   
