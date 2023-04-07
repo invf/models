@@ -45,6 +45,12 @@ const Navbar = () => {
             <li className={style.menu_button}>
               <a href='./PrivacyPolicy'>Refund Policy</a>
             </li>
+            <li className={style.menu_button}>
+              <a href='./contact'>Contact Us</a>
+            </li>
+            <li className={style.menu_button}>
+              <a href='./policy'>Privacy Policy</a>
+            </li>
           </ul>
 		   <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
