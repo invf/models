@@ -8,7 +8,7 @@ import { Product, FooterBanner, HeroBanner } from '../components';
 const Delivery = ({ products, bannerData }) => (
   <div className={styles.container}>
       <Head>
-        <title>Delivery | Hand Stitches</title>
+        <title>Contact | Hand Stitches</title>
         <meta name="description" content="Learn about the delivery options and policies for Hand Stitches products." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
