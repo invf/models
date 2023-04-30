@@ -20,7 +20,7 @@ a {
 max-width: 1400px; 
 margin: auto;
 width: 100%;
-background-color: rgb(235, 233, 232);
+background-color: white;
 
 }
 .layout{
@@ -107,7 +107,7 @@ background-color: rgb(235, 233, 232);
  cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
- color: #324d67;
+ color: white;
 
 }
 .product-card:hover{
@@ -115,7 +115,7 @@ background-color: rgb(235, 233, 232);
 }
 .product-image{
   border-radius: 15px;
- background-color: #ebebeb;
+ background-color: white;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -131,7 +131,7 @@ background-color: rgb(235, 233, 232);
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: white;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -214,12 +214,12 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 40px 40px;
-  background-color: #b8b4b4;
+  background-color: rgb(248, 246, 246);
   border-radius: 15px;
   position: relative;
   height: 400px;
   line-height: 1; 
-  color: white;
+  color: black;
   width: 100%;
   margin-top: 120px;
 }
@@ -426,13 +426,13 @@ padding: 30px 65px;
  gap: 40px;
  margin: 40px;
  margin-top: 60px;
- color: #324d67;
+ color: #020202;
 
 }
 
 .product-detail-image{
   border-radius: 15px;
-   background-color: #ebebeb;
+   background-color: #fafafa;
 
   width: 400px;
   height: 400px;
@@ -625,7 +625,7 @@ margin-top: 160px;
   margin-top: 10px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
   .hero-banner-container{
     height: 560px;
   }

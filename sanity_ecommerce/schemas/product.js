@@ -18,6 +18,11 @@ export default {
       type: 'string',
     },
     { 
+      name: 'ID_2checkout',
+      title: 'ID_2checkout',
+      type: 'string',
+    },
+    { 
       name: 'slug',
       title: 'Slug',
       type: 'slug',

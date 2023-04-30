@@ -31,7 +31,7 @@ const Navbar = () => {
             }
           >
             <li className={style.menu_button}>
-              <a href='./'>Home</a>
+              <a href='/'>Home</a>
             </li>
             <li className={style.menu_button}>
               <a href='./about'>About Us</a>

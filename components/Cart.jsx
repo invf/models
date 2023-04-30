@@ -9,16 +9,17 @@ import { useStateContext } from '../context/StateContext';
 import { urlFor } from '../lib/client';
 import getStripe from '../lib/getStripe';
 
+
+
 const Cart = () => {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
   //add change link topayment without stripe
   const router = useRouter();
-  const handleCheckout = () => {
-    router.push('/payment');
-    
-    
-  };
+  // const handleCheckout = () => {
+  //   router.push('/payment');  
+   
+  // };
 
   // const handleCheckout = async () => {
   //   const stripe = await getStripe();
@@ -39,6 +40,19 @@ const Cart = () => {
 
   //   stripe.redirectToCheckout({ sessionId: data.id });
   // }
+
+ 
+    
+  const handleCheckout = () => {
+      // Your code here
+      window.open('/payment', '_blank');
+  }
+
+  
+
+
+
+  
 
   return (
     <div className="cart-wrapper" ref={cartRef}>
@@ -79,13 +93,16 @@ const Cart = () => {
                 </div>
                 <div className="flex bottom">
                   <div>
+                  {
+                  /* //#устанавливает количество товара в корзине
                   <p className="quantity-desc">
                     <span className="minus" onClick={() => toggleCartItemQuanitity(item._id, 'dec') }>
                     <AiOutlineMinus />
                     </span>
                     <span className="num" onClick="">{item.quantity}</span>
                     <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
-                  </p>
+                  </p> */}
+                  <p>DELETE FROM SHOPPING BAG</p>
                   </div>
                   <button
                     type="button"
@@ -108,7 +125,7 @@ const Cart = () => {
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
               {/* <button type="button" className="btn" onClick={href='./payment'}> */}
-                Pay with Stripe
+                Pay
               </button>
             </div>
           </div>

@@ -6,7 +6,7 @@
     height: 40px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(235, 233, 232);
+    background-color: white;
     border-bottom: 1px solid gray;
   }
   
@@ -22,14 +22,14 @@
     font-size: 16px;
     line-height: 28px;
     gap: 30px;
-    background-color: rgb(235, 233, 232);
+    background-color: white;
 
   }
   .menu_button{
   display: flex;
   border-radius: 5px;
    padding: 2px 20px;
-   background-color: rgb(235, 233, 232);
+   background-color: white;
    color: black;
    border: none;
    margin-top: 2px;
