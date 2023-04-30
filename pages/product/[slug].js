@@ -11,10 +11,13 @@ const ProductDetails = ({ product, products }) => {
   const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
   const handleBuyNow = () => {
-    onAdd(product, qty);
-
-    setShowCart(true);
+    window.open('https://secure.2checkout.com/checkout/buy?merchant=254173080635&tpl=default&return-type=redirect&return-url=https%3A%2F%2Fwww.handstitches.com%2Fsuccess&prod=${item.ID_2checkout}&qty=1&signature=9a98596be5bb14c075db36e711191201eadc76066b2479c4e3471d4b6e362e50', '_blank');
   }
+  // const handleBuyNow = () => {
+  //   onAdd(product, qty);
+
+  //   setShowCart(true);
+  // }
 
   return (
     <div>
@@ -52,6 +55,7 @@ const ProductDetails = ({ product, products }) => {
           <h4>Details: </h4>
           <p>{details}</p>
           <p className="price">${price}</p>
+          
           <div className="quantity">
             <h3>Quantity:</h3>
               <p className="quantity-desc">
@@ -62,7 +66,7 @@ const ProductDetails = ({ product, products }) => {
             </p>
           </div>
           <div className="buttons">
-            <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button>
+            {/* <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button> */}
             <button type="button" className="buy-now" onClick={handleBuyNow}>Buy Now</button>
           </div>
         </div>

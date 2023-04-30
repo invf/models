@@ -45,7 +45,7 @@ const Cart = () => {
     
   const handleCheckout = () => {
       // Your code here
-      window.open('/payment', '_blank');
+      window.open('https://secure.2checkout.com/checkout/buy?merchant=254173080635&tpl=default&return-type=redirect&return-url=https%3A%2F%2Fwww.handstitches.com%2Fsuccess&prod=${item.ID_2checkout}&qty=1&signature=9a98596be5bb14c075db36e711191201eadc76066b2479c4e3471d4b6e362e50', '_blank');
   }
 
   
@@ -89,7 +89,7 @@ const Cart = () => {
               <div className="item-desc">
                 <div className="flex top">
                   <h5>{item.name}</h5>
-                  <h4>${item.price}</h4>
+                  <h4>${item.price}</h4>                  
                 </div>
                 <div className="flex bottom">
                   <div>
