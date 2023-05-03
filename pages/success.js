@@ -27,7 +27,7 @@ const Success = () => {
         <p className="description">
           If you have any questions, please email
           <a className="email" href="mailto:handstitches.ua@gmail.com">
-            order@example.com
+          handstitches.ua@gmail.com
           </a>
         </p>
         <Link href="/">
