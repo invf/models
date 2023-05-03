@@ -12,6 +12,7 @@ import style from './Navbar.module.css';
 
 
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -19,8 +20,13 @@ const Navbar = () => {
     <header className={style.header}>
       <div className='container'>
         <div className={style.box}>
+                 
+          
           <div className={style.logo_image}>
+          
+          
             <p className="logo">
+            
 			<Link href="/">HANDSTITCHES</Link>
 			</p>
           </div>
@@ -52,12 +58,12 @@ const Navbar = () => {
               <a href='./policy'>Privacy Policy</a>
             </li>
           </ul>
-		   <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+		   {/* <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>
-      </button>
+      </button> */}
 
-      {showCart && <Cart />}
+      {/* {showCart && <Cart />} */}
           <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
             {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
           </div>

@@ -9,6 +9,7 @@
     background-color: white;
     border-bottom: 1px solid gray;
   }
+
   
   .logo_image {
     display: flex;
@@ -50,7 +51,7 @@
     .mobile_btn {
       display: block;
       position: absolute;
-      right: 50px;
+      right: 20px;
       top: 16px;
       cursor: pointer;
       z-index: 10;
