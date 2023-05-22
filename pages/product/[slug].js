@@ -4,26 +4,20 @@ import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-
 import { client, urlFor } from '../../lib/client';
 import { Product } from '../../components';
 import { useStateContext } from '../../context/StateContext';
-// import ReactGA from 'react-ga';
-// import { useEffect } from 'react';
-
-
-
+import ReactGA from 'react-ga4';
 
 const ProductDetails = ({ product, products }) => {
   const { image, name, ID_2checkout, details, price } = product;
   const [index, setIndex] = useState(0);
   const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     ReactGA.initialize('G-PBN4SGCRYP');
-  //     ReactGA.pageview(window.location.pathname + window.location.search);
-  //   }
-  // }, []);
+  const TRACKING_ID = 'G-3MGRZ05J9J';
+  ReactGA.initialize(TRACKING_ID);
+  
 
 
   const handleBuyNow = () => {
+    ReactGA.send({ hitType: 'event', eventCategory: 'Button', eventAction: 'Buy Now', eventLabel: 'Product Details' });
     window.open('https://secure.2checkout.com/checkout/buy?merchant=254173080635&tpl=default&return-type=redirect&return-url=https%3A%2F%2Fwww.handstitches.com%2Fsuccess&prod='+ID_2checkout+'&qty=1&signature=9a98596be5bb14c075db36e711191201eadc76066b2479c4e3471d4b6e362e50', '_blank');
   }
 
