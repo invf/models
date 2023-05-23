@@ -36,10 +36,13 @@ export default {
       title: 'Price',
       type: 'number',
     },
-    { 
+
+
+    {
+      title: 'Details', 
       name: 'details',
-      title: 'Details',
-      type: 'string',
+      type: 'array', 
+      of: [{type: 'block'}]
     }
   ]
 }

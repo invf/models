@@ -6,6 +6,8 @@ import { Product } from '../../components';
 import { useStateContext } from '../../context/StateContext';
 import ReactGA from 'react-ga4';
 
+
+
 const ProductDetails = ({ product, products }) => {
   const { image, name, ID_2checkout, details, price } = product;
   const [index, setIndex] = useState(0);
@@ -55,8 +57,17 @@ const ProductDetails = ({ product, products }) => {
               (25)
             </p>
           </div>
+
+        <div className="product-detail-desc">
+          {/* Other fields */}
           <h4>Details: </h4>
-          <p>{details}</p>
+          {details.map((item, index) => (
+            <p key={item._key}>{item.children[0].text}</p>
+          ))}
+          {/* Remaining code */}
+        </div>
+
+
           <p className="price">${price}</p>
           
           <div className="quantity">
