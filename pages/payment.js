@@ -22,22 +22,16 @@ const Payment = ({ products, bannerData }) => (
 
         <p className={styles.description}>Dear customers,</p>
 
-<p className={styles.description}>We regret to inform you that due to the ongoing war in Ukraine, we are currently experiencing issues with our payment system.</p>
-<p className={styles.description}>Unfortunately, this means that we are unable to process payments through our usual channels, including credit cards and online payment systems.</p>
+<p className={styles.description}>At HANDSTITCHES STORE, we strive to make your shopping experience convenient and secure. That's why we have partnered with 2Checkout (Verifone), a trusted payment system that ensures seamless transactions and supports various payment options.</p>
+<p className={styles.description}>With 2Checkout, you can choose from a range of payment methods to complete your purchase. We accept PayPal, one of the world's most recognized and secure online payment systems. Whether you have a PayPal account or prefer to pay with a credit or debit card, you can easily complete your transaction using this widely trusted platform.</p>
 
-<p className={styles.description}>We understand that this may cause inconvenience, and we apologize for any delays or difficulties this may cause.</p>
-<p className={styles.description}>Please be assured that we are doing everything we can to resolve the issue as quickly as possible.</p>
+<p className={styles.description}>Not only does 2Checkout support PayPal, but it also enables you to pay with all major card types. Visa, Mastercard, American Express, Discover, and more—whatever card you prefer to use, you can rest assured that our payment system is compatible.</p>
+<p className={styles.description}>By utilizing 2Checkout, we ensure that your payment information is handled securely. 2Checkout's advanced encryption technology protects your sensitive data, giving you peace of mind during the checkout process.</p>
 
-<p className={styles.description}>In the meantime, we would like to offer alternative payment options, including bank transfers or other offline payment methods.</p> 
-<p className={styles.description}>If you would like to use one of these alternative methods, please contact us directly at our Email: handstitches.ua@gmail.com or Mobile: +380-067-506-50-75 and we will provide you with the necessary information.</p>
+<p className={styles.description}>Please note that when you proceed to the payment page, you will be redirected to the 2Checkout (Verifone) platform. This is to guarantee the highest level of security and to facilitate a smooth and hassle-free payment experience.</p> 
+<p className={styles.description}>If you have any questions or encounter any issues during the payment process, our dedicated customer support team is here to assist you. Don't hesitate to reach out to us via contact us directly at our Email: handstitches.ua@gmail.com or Mobile: +380-067-506-50-75 for prompt assistance.</p>
 
-<p className={styles.description}>We know that many of our customers have been affected by the situation in Ukraine, and we would like to take this opportunity to extend our sympathies to everyone who has been affected.</p>
-<p className={styles.description}>We hope for a speedy resolution to the conflict, and for peace and stability to be restored to the region.</p>
-
-<p className={styles.description}>Thank you for your understanding and support during this difficult time.</p>
-
-<p className={styles.description}>Sincerely,</p>
-<p className={styles.description}>HANDSITCES STORE</p>
+<p className={styles.description}>Thank you for choosing HANDSTITCHES STORE. We appreciate your trust and look forward to serving you with quality products and exceptional service. Happy shopping!</p>
 
 
       </main>
