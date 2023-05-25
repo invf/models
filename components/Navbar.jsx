@@ -10,9 +10,6 @@ import { useStateContext} from '../context/StateContext';
 import style from './Navbar.module.css';
 
 
-
-
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -20,16 +17,13 @@ const Navbar = () => {
     <header className={style.header}>
       <div className='container'>
         <div className={style.box}>
-                 
-          
-          <div className={style.logo_image}>
-          
-          
-            <p className="logo">
+        <div>
+            <p className="logo">            
             
 			<Link href="/">HANDSTITCHES</Link>
 			</p>
-          </div>
+
+          </div>  
           
           <ul
             className={

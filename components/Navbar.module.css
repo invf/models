@@ -11,10 +11,15 @@
   }
 
   
-  .logo_image {
+  /* .logo_image {
     display: flex;
     align-items: center;
     gap: 10px;
+  } */
+  .logo_image {
+    width: 8px; /* Set the desired width of the image */
+    height: auto; /* Set the height to auto to maintain the aspect ratio */
+    object-fit: contain; /* Adjust the object-fit property as needed */
   }
   
   .menu {

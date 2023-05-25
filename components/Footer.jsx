@@ -10,8 +10,11 @@ const Footer = () => {
       
       <div style={{ display: 'flex', justifyContent: 'center' }}>
       <SocialIcon url="https://pinterest.com/handstitchesua" style={{ margin: '0 5px' }} />
-      <SocialIcon url="https://reddit.com/" style={{ margin: '0 5px' }} />
-      <SocialIcon url="https://twitter.com/" style={{ margin: '0 5px' }} />
+      <SocialIcon url="https://www.reddit.com/user/handstitchesua/" style={{ margin: '0 5px' }} />
+      <SocialIcon url="https://twitter.com/investforecast/" style={{ margin: '0 5px' }} />
+      <SocialIcon url="https://handstitchesua.blogspot.com/" style={{ margin: '0 5px' }} />
+
+     
     </div>
       
     </div>
