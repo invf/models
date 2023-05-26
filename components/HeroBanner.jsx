@@ -19,9 +19,9 @@ const HeroBanner = ({ heroBanner }) => {
 
           <div className="desc">
           <img src="/assets/ukraine_stand_small.png" alt="Logo" />   
-            <p>{heroBanner.desc}</p>
+            <h4>{heroBanner.desc}</h4>
             <Link href={`/product/${heroBanner.product}`}>
-            <button type="button" style={{ float: 'right' }}>{heroBanner.buttonText}</button>
+            <button type="button" style={{ float: 'left' }}>{heroBanner.buttonText}</button>
 
             </Link>
             
