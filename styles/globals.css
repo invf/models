@@ -640,10 +640,11 @@ margin-top: 160px;
     margin-top: 80px;
   }
   .footer-banner-image{
-    width: 300px;
+    width: 280px;
     left: 15%;
     top: 23%;
-    height: 150px;
+    height: 140px;
+    margin-left: -15px;
   }
   .banner-desc .left h3{
     font-weight: 900;
