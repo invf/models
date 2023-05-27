@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>Handstitches Store</title>
+        <link rel="icon" href="./favicon-32x32.ico" />
       </Head>
       <header>
         <Navbar />
