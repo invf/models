@@ -12,7 +12,7 @@ const Payment = ({ products, bannerData }) => (
       <Head>
         <title>Payment | Hand Stitches</title>
         <meta name="description" content="Learn about the payment options and policies for Hand Stitches products." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.ico" />
       </Head>
 
       <main className={styles.main}>

@@ -17,7 +17,7 @@ const About = ({ products, bannerData }) => (
        <Head>
          <title>About Hand Stitches</title>
          <meta name="description" content="Learn about Hand Stitches and our commitment to quality handmade products." />
-         <link rel="icon" href="/favicon.ico" />
+         <link rel="icon" href="/favicon-32x32.ico" />
        </Head>
 
        <main className={styles.main}>

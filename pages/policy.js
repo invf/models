@@ -10,7 +10,7 @@ const Delivery = ({ products, bannerData }) => (
       <Head>
         <title>Privacy Policy | Hand Stitches</title>
         <meta name="description" content="Learn about the delivery options and policies for Hand Stitches products." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.ico" />
       </Head>
 
       <main className={styles.main}>

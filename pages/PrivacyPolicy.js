@@ -10,7 +10,7 @@ const Terms = ({ products, bannerData }) => (
       <Head>
         <title>Refund Policy | Hand Stitches</title>
         <meta name="description" content="Learn about the data collection and usage policies for Hand Stitches." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.ico" />
       </Head>
 
       <main className={styles.main}>
