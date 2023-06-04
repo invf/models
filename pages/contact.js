@@ -18,7 +18,7 @@ const Delivery = ({ products, bannerData }) => (
 </h2>
 <p className={styles.description}>At Handstitches Store, we value your feedback and are always happy to hear from our customers. If you have any questions, comments, or concerns, please don't hesitate to get in touch with us using one of the methods below:
 </p>
-<p className={styles.description}>Customer Service Hours: Monday - Friday, 9am - 8pm EST
+<p className={styles.description}>Customer Service Hours: Monday - Sunday, 9am - 9pm EST
 </p>
 <p className={styles.description}>Phone: +380-067-506-50-75
 </p>
