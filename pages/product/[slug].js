@@ -13,7 +13,7 @@ const ProductDetails = ({ product, products }) => {
   const [index, setIndex] = useState(0);
   const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
 
-  const TRACKING_ID = 'G-3MGRZ05J9J';
+  const TRACKING_ID = 'G-PSTTCVGEK6';
   ReactGA.initialize(TRACKING_ID);
   
 
