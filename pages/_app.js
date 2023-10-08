@@ -7,7 +7,7 @@ import { GoogleAnalytics } from "nextjs-google-analytics";
 import ReactGA from "react-ga4";
 
 function MyApp({ Component, pageProps }) {
-  const TRACKING_ID = 'G-3MGRZ05J9J';
+  const TRACKING_ID = 'G-PSTTCVGEK6';
   ReactGA.initialize(TRACKING_ID);
   ReactGA.send({ hitType: "pageview", page: "/", title: "Custom Title" });
 
